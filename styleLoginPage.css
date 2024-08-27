@@ -24,7 +24,7 @@ body {
     height: 550px;
     padding: 40px;
     margin: 0;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid grey;
     border-radius: 30px;
     margin-right: 100px;
@@ -109,22 +109,7 @@ body {
     cursor: pointer;
 }
 
-.register {
-    font-size: 14.2px;
-    display: flex;
-    justify-content: center;
-}
 
-.register a {
-    color: hsla(0, 0%, 10%, 0.281);
-    font-weight: 550;
-    font-size: medium;
-    text-decoration: none;
-}
-
-.register a:hover {
-    text-decoration: underline;
-}
 img {
     float: left;
 }
@@ -150,4 +135,8 @@ img {
 
 .password-container .eye i {
     font-size: 18px;
+}
+
+label > input {
+    cursor: pointer;
 }
