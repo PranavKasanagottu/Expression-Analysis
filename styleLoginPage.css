@@ -105,7 +105,7 @@ body {
 }
 
 .submit-button button:hover {
-    background-color:  hsla(14, 78%, 64%, 0.75);
+    background-color: hsla(210, 50%, 60%, 0.85);
     cursor: pointer;
 }
 
@@ -117,8 +117,7 @@ img {
     position: relative;
 }
 
-.password-container input[type="password"],
-.password-container input[type="text"] {
+.password-container input[type="password"],.password-container input[type="text"] {
     width: 100%;
     padding-right: 40px; 
     box-sizing: border-box;
@@ -134,9 +133,15 @@ img {
 }
 
 .password-container .eye i {
-    font-size: 18px;
+    font-size: 16px;
 }
 
-label > input {
-    cursor: pointer;
+
+.input-box label, .remember-forgot label {
+    cursor: text;
+}
+
+
+.remember-forgot label input {
+    cursor: pointer; 
 }
